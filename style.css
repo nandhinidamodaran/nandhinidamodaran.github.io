@@ -1,1 +1,38 @@
-Delete old style.css
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px 0;
+}
+
+main {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #eee;
+}
